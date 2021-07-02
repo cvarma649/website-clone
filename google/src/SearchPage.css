@@ -1,0 +1,118 @@
+.searchPage_header {
+  display: flex;
+  position: sticky;
+  padding: 30px;
+  padding-bottom: 0;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  align-items: flex-start;
+  border-bottom: 1px solid rgb(221, 220, 220);
+}
+
+.searchPage_header img {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.searchPage_headerBody > .search > .search_input {
+  max-width: unset;
+  width: unset;
+  margin: unset;
+  margin-top: unset;
+  margin-bottom: -30px;
+}
+
+.searchPage_options {
+  color: rgb(114, 114, 114);
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 4px;
+}
+
+.searchPage_optionsRight,
+.searchPage_optionsLeft {
+  display: flex;
+}
+
+.searchPage_options a,
+.searchPage_optionsRight a {
+  text-decoration: none;
+  font-size: unset;
+  font-weight: light;
+  font-size: 13.5px;
+  color: rgb(34, 33, 33);
+  margin-left: 3.5px;
+}
+
+.searchPage_optionsRight {
+  margin-left: 70px;
+}
+
+.searchPage_option {
+  margin-top: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.searchPage_optionIcon {
+  width: 20px !important;
+  height: 18.5px !important;
+  color: rgb(61, 61, 61);
+}
+
+.searchPage_option :hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.searchPage_result {
+  margin: 40px 0;
+}
+
+.searchPage_resultsCount {
+  font-size: 14px;
+  color: grey;
+}
+
+.searchPage_results {
+  max-width: 640px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "helvetica";
+  font-size: 17.5px;
+}
+
+.searchPage_resultTitle,
+.searchPage_result a {
+  text-decoration: none;
+  color: black;
+}
+
+.searchPage_resultTitle :hover {
+  text-decoration: underline;
+}
+
+.searchPage_resultTitle > h2 {
+  font-weight: 500;
+  color: rgb(6, 3, 163);
+  font-size: 22.5px !important;
+}
+
+.searchPage_resultSnippet {
+  color: rgb(65, 64, 64);
+}
+
+.searchPage_resultImage {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
